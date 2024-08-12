@@ -47,6 +47,7 @@ We are going to develop using Content Based
             {{i}}</br>
             {% endfor %}
    - Recommended music is printed in the form of card, and code is used from same Bootstrap website's, [Example Code](https://getbootstrap.com/docs/5.3/components/card/) and songs passed through the 'jinja' feature.
+- File can be execute by typing the command "python app.py" on the terminal, it will give us an URL for the webpage.
  
 ## Webpage using Streamlit
 - the first 3 steps are similar to above one
@@ -62,7 +63,7 @@ We are going to develop using Content Based
 - Create a selectbox using streamlit and search button
 - extract the song and poster
 - Created 5 column each containing recommended songs name with poster
-
+- File can be excuted using the command "Streamlit run app.py" on the terminal
 ## Problem faced and Solution
 - The main problem I faced was with the package installation.
 - The best way to resolve is to create an environment with suitable python version.
