@@ -2,7 +2,9 @@
 
 This repository contains files to create a Music recommendation system along with a webpage view. I create it in 2 ways using Flask and Streamlit(Both Included in this repo)
 
-Language/ Tools - Python, Jupyter notebook, Visual Studio code
+Language/ Tools - Python, Jupyter notebook, Visual Studio code, HTML
+
+Dataset: Spotify Million Song Dataset, https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset
 
 ## Recommendation System
 ### Types of Recomendation system
@@ -10,6 +12,7 @@ Language/ Tools - Python, Jupyter notebook, Visual Studio code
 2. Content Based (Tags like comedy , thriller, love, etc,.)
 3. Collaborative filtering (Based on users similarity)
 4. Hybrid (Collection of all the above 3)</br>
+
 We are going to develop using Content Based
 ### Steps involved
 1. Data collection and preparation: Load the data, Take a sample of 5000 data out of 57650, remove the link column.
@@ -64,12 +67,11 @@ We are going to develop using Content Based
 - extract the song and poster
 - Created 5 column each containing recommended songs name with poster
 - File can be excuted using the command "Streamlit run app.py" on the terminal
-## Problem faced and Solution
-- The main problem I faced was with the package installation.
-- The best way to resolve is to create an environment with suitable python version.
-- Chrome and Edge both were not giving desired result, updating the browser helps.
+## Troubleshooting 
+- The major proportion faced at the beginning would be package installation and there compatability with each other.The best way to resolve is to create an environment with suitable python version and corresponding desired package.
+- Chrome, Edge or whichever browser is being used should be updated to avoid any unexpected errors.
 - Naming convention shoulf be proper, when passing the values from one page to another in case of Flask. double check the Jinja feature names.
-- One major problem which I faced was while working on Streamlit, both Streamlit and Spotipy was giving Pylance error. Streamlit error was gone when I restarted my VS code but Spotipy error persit and try to Unistall and install Spotipy, it installed but keep on giving the error of not finding the library, then when I installed Spotipy through Anaconda prompt it worked for me.
+- One more issue which I faced was while working on Streamlit, both Streamlit and Spotipy was giving Pylance error. Streamlit error was gone when I restarted my VS code but Spotipy error persit and try to Unistall and install Spotipy, it installed but keep on giving the error of 'not found', then when I installed Spotipy through Anaconda prompt it worked for me.
 
 ## Future work
 - Work on bigger dataset and training the model with more features.
@@ -79,6 +81,5 @@ References:
 1. Music Recommendation System | AI-Driven Songs Recommendations | Machine Learning Project| Urdu Hindi, Artificial Intelligence, https://www.youtube.com/watch?v=gb7EzyuNSxI
 2. Complete Python Flask Tutorial For Data Science Projects In Hindi, Krish Naik Hindi, https://www.youtube.com/watch?v=KF-rDqQfqz0
 3. Music Recommender System Using Python, KNOWLEDGE DOCTOR, https://www.youtube.com/watch?v=jm9JamrbSv8&t=2252s
-4. https://spotipy.readthedocs.io/en/2.24.0/
-5. Dataset: Spotify Million Song Dataset, https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset
+4. Spotipy, https://spotipy.readthedocs.io/en/2.24.0/
 
